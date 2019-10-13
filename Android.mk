@@ -27,7 +27,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter anne bond figo,$(TARGET_DEVICE)),)
+ifneq ($(filter anne bond figo leland,$(TARGET_DEVICE)),)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := HotwordEnrollmentOKGoogleHI6403

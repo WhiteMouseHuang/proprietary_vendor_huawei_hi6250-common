@@ -27,7 +27,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter ,$(TARGET_DEVICE)),)
+ifneq ($(filter anne,$(TARGET_DEVICE)),)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := HotwordEnrollmentOKGoogleHI6403
